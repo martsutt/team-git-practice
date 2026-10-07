@@ -24,3 +24,14 @@ test("returns 0 when no items are completed", () => {
 test("handles an empty list", () => {
   assert.equal(countCompleted([]), 0);
 });
+
+test("ignores missing and non-boolean completed values", () => {
+  const items = [
+    { completed: true },
+    { completed: "true" },
+    {},
+    { completed: false }
+  ];
+
+  assert.equal(countCompleted(items), 1);
+});
