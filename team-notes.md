@@ -1,1 +1,1 @@
-Team motto: Commit early, push often.
+Team motto: wazaaa
