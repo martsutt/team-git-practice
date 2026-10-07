@@ -1,1 +1,1 @@
-Team motto: To be decided.
+Team motto: Commit early, push often.
